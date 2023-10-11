@@ -39,7 +39,7 @@ class Halamanlogin : AppCompatActivity() {
                 startActivity(Intent(this, Home::class.java))
             }
             else if(username2==txtusername&&password2==txtpassword) {
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, Home::class.java))
             }
             else{
                 Toast.makeText(this, "username atau password salah", Toast.LENGTH_SHORT).show()
