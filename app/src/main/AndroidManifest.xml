@@ -31,10 +31,10 @@
             android:name=".BuatAkun"
             android:exported="false" />
         <activity
-            android:name=".Halamanlogin"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Halamanlogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

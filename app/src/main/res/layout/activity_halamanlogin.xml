@@ -11,7 +11,7 @@
     <View
         android:layout_width="500.1dp"
         android:layout_height="475.26dp"
-        android:layout_marginTop="-150dp"
+        android:layout_marginTop="-160dp"
         android:background="@drawable/iconlogin"
         android:outlineSpotShadowColor="@color/black"
         />
@@ -52,8 +52,8 @@
             android:background="@drawable/butonshape"
             android:backgroundTint="@color/textfield"
             android:drawablePadding="5dp"
-            android:hint="Masukan Email"
-            android:inputType="textEmailAddress"
+            android:hint="Masukan username"
+            android:inputType="textPersonName"
             android:paddingLeft="20dp"
             android:textColor="@color/black"
             android:textColorHint="@color/textisi" />

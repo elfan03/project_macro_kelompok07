@@ -11,7 +11,7 @@
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/tampilanatasbiru"
+        android:background="@color/updatecollortheme"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,23 +24,14 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="354dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:layout_height="663dp"
         android:layout_marginTop="50dp"
         android:orientation="vertical"
-        android:padding="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.118"
-        tools:ignore="MissingConstraints">
+        android:padding="40dp">
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lupa kata sandi"
             android:textColor="@color/black"
@@ -87,13 +78,13 @@
         <Button
             android:id="@+id/btnkodepermintaan"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/butonshape"
             android:fontFamily="@font/lato_bold"
             android:text="Kode permintaan"
             android:textColor="@color/white"
-            android:textSize="20sp"></Button>
+            android:textSize="20dp"></Button>
 
     </LinearLayout>
 
