@@ -36,7 +36,7 @@ class Halamanlogin : AppCompatActivity() {
             val txtusername = findViewById<EditText>(R.id.edt_masukanusername).text.toString()
             val txtpassword = findViewById<EditText>(R.id.edt_masukansandi).text.toString()
             if (username==txtusername&&password==txtpassword){
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, Home::class.java))
             }
             else if(username2==txtusername&&password2==txtpassword) {
                 startActivity(Intent(this, MainActivity::class.java))

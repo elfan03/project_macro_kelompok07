@@ -136,7 +136,8 @@
             android:layout_height="wrap_content"
             android:text="Gunakan 6 karakter dengan campuran huruf, angka dan simbol."
             android:textColor="@color/textisi"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
 
         <LinearLayout
             android:layout_width="match_parent"

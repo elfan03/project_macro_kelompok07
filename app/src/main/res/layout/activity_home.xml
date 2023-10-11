@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:background="@drawable/home"
+        android:outlineSpotShadowColor="@color/black"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:orientation="vertical"
+        android:padding="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/lip"
+            android:layout_width="49dp"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/profil" />
+
+        <LinearLayout
+            android:layout_width="272dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="HAI,  Regina Bara!" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Selamat Datang di Math-Fun" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/edt_masukanemail"
+            android:layout_width="353dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/butonshape"
+            android:backgroundTint="#465770"
+            android:drawableStart="@drawable/iconpencarian"
+            android:drawablePadding="5dp"
+            android:hint="Yuk, cari materi belajar disini"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="227dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_latihan"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/butonshape"
+                android:drawableTop="@drawable/latihan"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="latihan"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
+
+            <Button
+                android:id="@+id/btn_quiz"
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/butonshape"
+                android:drawableTop="@drawable/latihan"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Quiz"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
+            <Button
+                android:id="@+id/btn_videopembelajaran"
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/butonshape"
+                android:drawableTop="@drawable/latihan"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Video"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edt_kamusukai"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/butonshape2"
+            android:backgroundTint="#465770"
+            android:drawablePadding="5dp"
+            android:hint="Halaman yang mungkin kamu sukai"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="227dp" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="139dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:background="@drawable/butonshape"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Cuplikan video trik cepat"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
+
+            <Button
+                android:layout_width="139dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/butonshape"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Cuplikan video trik cepat"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="139dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:background="@drawable/butonshape"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Cuplikan video trik cepat"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
+
+            <Button
+                android:layout_width="139dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/butonshape"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Cuplikan video trik cepat"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
