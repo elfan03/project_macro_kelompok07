@@ -10,22 +10,22 @@ import android.widget.Toast
 
 class Halamanlogin : AppCompatActivity() {
     private lateinit var button: Button
-    private lateinit var tv :TextView
+    private lateinit var tvmendaftar :TextView
     private lateinit var tvlupapassword :TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_halamanlogin)
         button=findViewById(R.id.btnmasuk)
-        tv = findViewById(R.id.tvlupapassword)
-        tvlupapassword = findViewById(R.id.tvmendaftar)
+        tvmendaftar = findViewById(R.id.tvmendaftar)
+        tvlupapassword = findViewById(R.id.tvlupapassword)
 
 
-        tv.setOnClickListener {
-           startActivity(Intent(this,Lupakatasandi::class.java))
+        tvmendaftar.setOnClickListener {
+           startActivity(Intent(this,BuatAkun::class.java))
         }
         tvlupapassword.setOnClickListener {
-            startActivity(Intent(this,BuatAkun::class.java))
+            startActivity(Intent(this,Lupakatasandi::class.java))
         }
 
         button.setOnClickListener {

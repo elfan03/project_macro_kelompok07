@@ -2,6 +2,6 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Matematika_Fun_Project_Macro" parent="Theme.Material3.DayNight.NoActionBar">
         Customize your dark theme here.
-<!--        <item name="colorPrimary">@color/buttonbiru</item>-->
+        <item name="colorPrimary">@color/updatecollortheme</item>
     </style>
 </resources>
